@@ -1,0 +1,62 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #414141;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #212121;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffa537;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Khand', sans-serif;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #212121;
+  color: #ffa537;
+}
+
+.dps {
+  font-weight: bold;
+}
+
+.social-icon {
+  width: 20px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.logo {
+  max-width: 500px;
+}
+
+a {
+  color: #ffa537;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #ffa537;
+  text-decoration: none;
+}
